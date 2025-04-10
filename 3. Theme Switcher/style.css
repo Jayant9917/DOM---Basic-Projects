@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .light {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .dark {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  

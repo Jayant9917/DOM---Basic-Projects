@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BG Color Changer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Main wrapper with default white background -->
+  <div class="wrapper">
+    <div class="container">
+      <h1>BG Color Changer</h1>
+
+      <div class="button-panel" id="colorButtons">
+        <button class="color-btn" data-color="red" style="background-color: red;"></button>
+        <button class="color-btn" data-color="blue" style="background-color: blue;"></button>
+        <button class="color-btn" data-color="green" style="background-color: green;"></button>
+      </div>
+
+      <div class="custom-color">
+        <input type="text" id="customColorInput" placeholder="Enter a color (e.g. purple)" />
+        <button id="addColorBtn">Add Color</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

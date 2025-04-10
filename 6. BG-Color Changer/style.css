@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* White container in center */
+  .wrapper {
+    background-color: white;
+    width: 30%;
+    margin: 50px auto;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0  20px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .button-panel {
+    margin: 20px 0;
+  }
+  
+  .color-btn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: transform 0.2s;
+  }
+  
+  .color-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .custom-color input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  #addColorBtn {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
